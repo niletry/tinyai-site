@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TinyAi Privacy Policy</title><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<nav><a href="index.html">← TinyAi Support</a> · <a href="privacy.html">中文</a></nav>
+<h1>Privacy Policy</h1>
+<p class="meta">Effective date: September 29, 2026</p>
+
+<p>TinyAi (“the App”) helps you add plans found in your screenshots to your calendar. We keep your data on your iPhone wherever possible, upload only what is needed to recognize a plan, and delete it as soon as recognition is done.</p>
+
+<h2>1. What the App reads</h2>
+<ul>
+<li><b>Screenshots</b>: once you grant Photos access, the App reads only screenshots (images the system marks as screenshots). It does not read your other photos.</li>
+<li><b>Calendar</b>: used to create, update and delete events in a separate calendar named “TinyAi”.</li>
+<li><b>Contacts (optional)</b>: read on your device only, to match names used in chats (such as a nickname) to contact names.</li>
+</ul>
+
+<h2>2. Processing on your device</h2>
+<p>Text in each screenshot is first recognized on your iPhone. Screenshots that do not appear to contain plans (such as payment codes, web pages or memes) never leave your device. Recognized events, conversation summaries, the last 14 days of chat text and thumbnails are stored only on your iPhone. They are not uploaded or synced.</p>
+
+<h2>3. What is sent to our server</h2>
+<p>When a screenshot may contain a plan, the App sends the following over an encrypted connection (HTTPS) to our recognition service:</p>
+<ul>
+<li>the compressed screenshot and the text recognized from it on your device;</li>
+<li>brief context from the same conversation (a summary and a few recent lines), so that messages like “let’s move it to 4” can be understood;</li>
+<li>names used in the screenshot and the matching contact names (only for names that appear in the screenshot);</li>
+<li>existing events related to that conversation (title, time, place), to tell a new plan from a change to an existing one;</li>
+<li>the time the screenshot was taken, and a randomly generated device identifier used only to count daily recognitions. It is not linked to your Apple ID, phone number or advertising identifier.</li>
+</ul>
+<p>The recognition service runs on Alibaba Cloud Function Compute (Beijing region, China) and uses the Alibaba Cloud Model Studio (Qwen) vision model for recognition. The server discards this content immediately after processing. <b>It does not store images, text or recognition results, and does not write them to logs.</b> The model provider handles this data under its own terms of service.</p>
+
+<h2>4. What we don’t do</h2>
+<ul>
+<li>No account is required. We do not collect your name, phone number, email address or other identity information.</li>
+<li>No advertising and no cross-app tracking. We do not sell or share your data for marketing.</li>
+<li>No third-party analytics or advertising SDKs.</li>
+</ul>
+
+<h2>5. Your choices</h2>
+<ul>
+<li>You can turn off the App’s Photos, Calendar and Contacts access at any time in iOS Settings.</li>
+<li>You can clear all records on your iPhone in the App’s Settings. Deleting the App removes all local data.</li>
+<li>Events in the “TinyAi” calendar can be edited or deleted like any other event.</li>
+</ul>
+
+<h2>6. Children</h2>
+<p>The App is not directed at children under 13 (or under 14 in mainland China). We do not knowingly collect personal information from children.</p>
+
+<h2>7. Changes and contact</h2>
+<p>If we make material changes to this policy, we will update this page and its effective date. If you have any questions, contact <a href="mailto:running_sam@outlook.com">running_sam@outlook.com</a>.</p>
+</main></body></html>
